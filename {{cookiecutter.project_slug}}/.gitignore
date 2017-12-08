@@ -1,0 +1,12 @@
+# files and directories to ignore so that they do not get published on GitHub and no history is saved
+
+
+# Secret keys for APIs and such that you do not want to share
+keys.txt
+
+# Data (proprietary, personal information ... ) that should not be shared
+data/raw
+
+
+# If use Jupyter Notebooks:
+notebooks/.ipynb_checkpoints

@@ -1,0 +1,11 @@
+{
+  "full_name": "your full name",
+  "email": "your email address",
+  "github_username": "your github user name",
+  "project_name": "story title or something similar",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "short_description": "Story on the rise and fall of civilisation",
+  "ddj_cookiecutter_version": "0.1.0",
+  "date": "{% now 'local', '%a, %d %b %Y' %}",
+  "_extensions": ["jinja2_time.TimeExtension"]
+}
